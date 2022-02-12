@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol BabyTeethTVCDelegate:class {
+protocol BabyTeethTVCDelegate:AnyObject {
     func childVCDidSave(_ controller: BabyTeethTVC, text: String)
 }
 

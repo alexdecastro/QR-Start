@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol KsadsVCDelegate:class {
+protocol KsadsVCDelegate:AnyObject {
     func childVCDidSave(_ controller: KsadsVC, text: String)
 }
 

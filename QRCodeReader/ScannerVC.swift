@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-protocol ChildVCDelegate:class {
+protocol ChildVCDelegate:AnyObject {
     func childVCDidSave(_ controller: ScannerVC, text: String)
 }
 

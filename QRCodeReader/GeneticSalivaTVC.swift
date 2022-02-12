@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol GeneticSalivaTVCDelegate:class {
+protocol GeneticSalivaTVCDelegate:AnyObject {
     func childVCDidSave(_ controller: GeneticSalivaTVC, text: String)
 }
 

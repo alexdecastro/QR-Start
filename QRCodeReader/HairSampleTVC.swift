@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol HairSampleTVCDelegate:class {
+protocol HairSampleTVCDelegate:AnyObject {
     func childVCDidSave(_ controller: HairSampleTVC, text: String)
 }
 

@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol BloodDrawTVCDelegate:class {
+protocol BloodDrawTVCDelegate:AnyObject {
     func childVCDidSave(_ controller: BloodDrawTVC, text: String)
 }
 

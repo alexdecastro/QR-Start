@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol MillisecondVCDelegate:class {
+protocol MillisecondVCDelegate:AnyObject {
     func childVCDidSave(_ controller: MillisecondVC, text: String)
 }
 

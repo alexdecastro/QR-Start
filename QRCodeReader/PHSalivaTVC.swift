@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol PHSalivaTVCDelegate:class {
+protocol PHSalivaTVCDelegate:AnyObject {
     func childVCDidSave(_ controller: PHSalivaTVC, text: String)
 }
 
